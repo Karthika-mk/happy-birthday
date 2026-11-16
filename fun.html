@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Just For Fun</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23C7644A' d='M50 88 15 53C3 41 5 22 20 16c11-4 23 0 30 10 7-10 19-14 30-10 15 6 17 25 5 37Z'/%3E%3C/svg%3E">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="hearts" aria-hidden="true">
+    <span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span>
+  </div>
+
+  <nav class="nav" aria-label="Pages">
+    <a href="index.html">Home</a>
+    <a href="reasons.html">Reasons</a>
+    <a href="open-when.html">Open When</a>
+    <a href="wishes.html">Wishes</a>
+    <a href="fun.html" class="active" aria-current="page">Fun</a>
+    <a href="letter.html">Letter</a>
+  </nav>
+
+  <main>
+    <h2>Just for fun</h2>
+    <p class="subtitle">A tiny quiz and some coupons, just for you.</p>
+
+    <!-- Quiz: tap a question to see the answer -->
+    <section class="fun-section">
+      <h3>A tiny quiz 🤔</h3>
+      <div class="quiz">
+        <details class="quiz-item">
+          <summary>When did we meet?</summary>
+          <p>The day I met someone kind, funny, and beautiful inside and out: 27 June 2026 at URU. Lucky me. 💛</p>
+        </details>
+        <details class="quiz-item">
+          <summary>Who takes longer to reply to texts?</summary>
+          <p>We both know the answer. 👀</p>
+        </details>
+        <details class="quiz-item">
+          <summary>Who's always right?</summary>
+          <p>You. I've learned not to argue.</p>
+        </details>
+        <details class="quiz-item">
+          <summary>Who would win in a race?</summary>
+          <p>You, obviously. I'd still be tying my shoelaces. 🏃‍♀️</p>
+        </details>
+        <details class="quiz-item">
+          <summary>Who's the better listener?</summary>
+          <p>You. You always know exactly what to say, and when to just listen.</p>
+        </details>
+        <details class="quiz-item">
+          <summary>Who's more likely to cry at a movie?</summary>
+          <p>Me. Every single time. You just pass the tissues. 🥲</p>
+        </details>
+        <details class="quiz-item">
+          <summary>What's my favourite thing about you?</summary>
+          <p>Too many to pick. Go back and read page 2. 💛</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Coupons: tap Redeem to use one -->
+    <section class="fun-section">
+      <h3>Coupons for you 🎟️</h3>
+      <p class="subtitle">Redeem them as many times as you like. They never run out.</p>
+      <div class="coupons">
+        <div class="coupon" data-coupon="hug">
+          <span class="emoji">🫂</span>
+          <h4>1 free hug</h4>
+          <small>Never expires</small>
+          <button type="button">Redeem</button>
+        </div>
+        <div class="coupon" data-coupon="movie">
+          <span class="emoji">🍿</span>
+          <h4>Movie night</h4>
+          <small>Your choice, no complaints from me</small>
+          <button type="button">Redeem</button>
+        </div>
+        <div class="coupon" data-coupon="rant">
+          <span class="emoji">🗣️</span>
+          <h4>Rant session</h4>
+          <small>I'll listen, no interruptions</small>
+          <button type="button">Redeem</button>
+        </div>
+        <div class="coupon" data-coupon="snack">
+          <span class="emoji">🍫</span>
+          <h4>Favourite snack</h4>
+          <small>Delivered with love</small>
+          <button type="button">Redeem</button>
+        </div>
+        <div class="coupon" data-coupon="right">
+          <span class="emoji">🏅</span>
+          <h4>One "you were right"</h4>
+          <small>Use it wisely</small>
+          <button type="button">Redeem</button>
+        </div>
+        <div class="coupon" data-coupon="compliments">
+          <span class="emoji">🌸</span>
+          <h4>A day of compliments</h4>
+          <small>Nonstop, all day long</small>
+          <button type="button">Redeem</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-nav">
+      <a href="wishes.html" class="btn ghost">← Back</a>
+      <a href="letter.html" class="btn">One last thing… →</a>
+    </div>
+  </main>
+
+  <footer>Coupons never expire, just like how much I care ♥</footer>
+</body>
+</html>

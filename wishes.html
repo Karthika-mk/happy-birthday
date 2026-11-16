@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make a Wish</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23C7644A' d='M50 88 15 53C3 41 5 22 20 16c11-4 23 0 30 10 7-10 19-14 30-10 15 6 17 25 5 37Z'/%3E%3C/svg%3E">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="hearts" aria-hidden="true">
+    <span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span>
+  </div>
+
+  <nav class="nav" aria-label="Pages">
+    <a href="index.html">Home</a>
+    <a href="reasons.html">Reasons</a>
+    <a href="open-when.html">Open When</a>
+    <a href="wishes.html" class="active" aria-current="page">Wishes</a>
+    <a href="fun.html">Fun</a>
+    <a href="letter.html">Letter</a>
+  </nav>
+
+  <main>
+    <h2>Make a wish, Kathy</h2>
+    <p class="subtitle">Close your eyes, think of something wonderful, then blow out the candle.</p>
+
+    <div class="cake-wrap">
+      <button type="button" class="candle" data-candle aria-label="Blow out the candle" aria-pressed="false">
+        <span class="flame" aria-hidden="true"></span>
+        <span class="smoke" aria-hidden="true"></span>
+      </button>
+      <div class="cake" aria-hidden="true"></div>
+      <p class="candle-hint" data-candle-hint aria-live="polite">Tap the candle to blow it out 🕯️</p>
+    </div>
+
+    <ul class="wish-list" data-wishes>
+      <li>🌟 A year full of little wins, and big ones too</li>
+      <li>😴 Good sleep and lazy mornings with no alarms</li>
+      <li>💪 The courage to go after everything you want</li>
+      <li>😂 So much laughter your cheeks hurt</li>
+      <li>🌍 Adventures, new places, and stories worth retelling</li>
+      <li>💛 People around you who love you as much as you deserve</li>
+      <li>🍀 A healthy, wealthy, happy lifestyle</li>
+      <li>🕊️ Peace in your heart, every single day</li>
+    </ul>
+
+    <div class="page-nav">
+      <a href="open-when.html" class="btn ghost">← Back</a>
+      <a href="fun.html" class="btn">Next: Just for fun →</a>
+    </div>
+  </main>
+
+  <footer>May every single one come true ♥</footer>
+</body>
+</html>
